@@ -3,6 +3,8 @@ This solution has two purposes, and so has two sections. The UI project and the 
 
 The second section is the ExploringRoutesWithTests project, organized by one-test-fixture-per-theme, where I'm using unit tests to play what-if games with routing.
 
+The Home/Index page plays with the HtmlHelper methods that use the routing engine to emit URLs, links, and action results. The page shows the method that was called in the view markup, followed by the output of that method.
+
 With thanks to
 
  * Phil Haack: [http://haacked.com/archive/2007/12/17/testing-routes-in-asp.net-mvc.aspx](http://haacked.com/archive/2007/12/17/testing-routes-in-asp.net-mvc.aspx)

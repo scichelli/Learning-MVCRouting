@@ -2,7 +2,11 @@
     ViewBag.Title = "Home Page";
 }
 
-<h2>@ViewBag.Message</h2>
+<h2>Html Helper Methods</h2>
 <p>
-    To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.
+	<p><b>Url.Action("About"):</b> @Url.Action("About")</p>
+	<p><b>Html.Action("About"):</b> @Html.Action("About")</p>
+	<p><b>Html.ActionLink("link text","About"):</b> @Html.ActionLink("link text","About")</p>
+	<p><b>Html.RouteLink("link text","Default", new { action = "About" }):</b> @Html.RouteLink("link text","Default", new { action = "About" })</p>
+	<p><b>{ Html.RenderAction("About"); }:</b> @{ Html.RenderAction("About"); }</p>
 </p>
